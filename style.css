@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+nav{
+    
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    
+    
+    list-style-type: none;
+    justify-content: center;
+    
+    
+}
+nav ul li{
+    
+    padding:10px 20px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 3px;
+    
+    
+    
+}
+nav ul li a:hover{
+    border-bottom:2px solid white  ;
+    
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background:url("waves.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color:white;
+    text-align: center;
+  
+    
+}
+header img{
+    border: 5px solid white;
+    border-radius: 100%;
+    margin-top: 170px;
+    margin-bottom: 25px;
+    width: 300px;
+    height: 300px;
+}
+header h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.about{
+    width: 60%;
+    margin: auto;
+}
+.about h1{
+    text-align: center;
+    color:#0793ea;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.about ul{
+  width: 20%;
+  margin: auto;
+  
+  
+}
+.seection{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}   
+
+
+
+.about li:nth-child(1){
+    list-style-image: url("phone.png");
+}
+.about li:nth-child(2){
+    list-style-image: url("email.png");
+}
+.about li:nth-child(3){
+    list-style-image: url("facebook.png");
+}
